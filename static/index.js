@@ -1,3 +1,3 @@
 var socket = io();
 
-socket.emit('hello');
+socket.emit('join room', 1234);
