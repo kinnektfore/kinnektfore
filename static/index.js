@@ -1,3 +1,8 @@
 var socket = io();
 
-socket.emit('hello');
+$('document').ready(() => {
+    var i;
+    for (i = 0; i < 4; i++) {
+        console.log('cool')
+    }
+})
